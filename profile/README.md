@@ -1,7 +1,7 @@
 <!-- Landing -->
-<div allign="center">
+<div align="center">
     <a href="https://newgent.org" target="_blank">
-        <img src="./github-banner.png" alt="Banner">
+        <img src="https://raw.githubusercontent.com/heynewgent/.github/main/profile/github-banner.png" alt="Banner">
     </a>
     <br>
     <h3>newgent.org</h3>

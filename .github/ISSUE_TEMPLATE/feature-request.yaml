@@ -1,0 +1,41 @@
+name: Request a new feature
+description: Request and suggest new features.
+labels: [feature request]
+body:
+
+- type: textarea
+  validations:
+    required: true
+  attributes:
+    label: "Is your feature request related to a problem?"
+    description: "A clear and concise description of what the problem is."
+
+- type: textarea
+  validations:
+    required: true
+  attributes:
+    label: "Describe the solution you'd like"
+    description: "A clear and concise description of what you want to happen."
+
+- type: textarea
+  validations:
+    required: true
+  attributes:
+    label: "Describe alternatives you've considered"
+    description: "A clear and concise description of any alternative solutions or features you've considered."
+
+- type: textarea
+  attributes:
+    label: "Additional context"
+    description: "Add any other context or additional information about the problem here."
+
+- type: checkboxes
+  attributes:
+    label: Is there an existing feature request for this?
+    options:
+    - label: I have searched for existing request before opening this request.
+      required: true
+    - label: I have provided all relevant details to begin planning of this enhancement.
+      required: true
+    - label: I have asked in the Discord or contacted support to confirm what I'm requesting doesn't already exist.
+      required: true
